@@ -3,63 +3,39 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#10409f",
-    "light": "#8eadff",
-    "dark": "#143698"
+    "primary": "#16A34A",
+    "light": "#346DDB",
+    "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/s.svg",
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
-        }
-      ]
-    },
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "INTRODUCTION",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "what-is-analytics"
             ]
           },
           {
-            "group": "Customization",
+            "group": "ANALYTICS",
+            "icon": "chart-line",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "analytics/get-started",
+              "analytics/sdk-initialization",
+              "analytics/auto-manual-event-tracking",
+              "analytics/custom-event-tracking",
+              "analytics/add-event-tracking"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "AD ANALYTICS",
+            "icon": "tv",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "ad-analytics/ad-analytics-sdk",
+              "ad-analytics/ad-sdk-initialization"
             ]
           }
         ]
@@ -68,38 +44,35 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/Dark Twinalyze.svg"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "System Status",
+        "href": "https://stats.uptimerobot.com/CtHHsPhHgi"
+      },
+      {
+        "label": "Visit website",
+        "href": "https://twinalyze.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://app.twinalyze.com"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/twinalyze",
+      "github": "https://github.com/twinalyze",
+      "linkedin": "https://www.linkedin.com/company/twinalyze/",
+      "youtube": "https://www.youtube.com/@twinalyze",
+      "instagram": "https://www.instagram.com/twinalyze/"
     }
+  },
+  "custom": {
+    "css": "custom.css"
   }
 }
