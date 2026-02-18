@@ -37,6 +37,12 @@
               "ad-analytics/ad-analytics-sdk",
               "ad-analytics/ad-sdk-initialization"
             ]
+          },
+          {
+            "group": "Embeds",
+            "pages": [
+              "embeds/docs-block.md"
+            ]
           }
         ]
       }
