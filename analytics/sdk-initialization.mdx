@@ -1,5 +1,5 @@
 ---
-title: 'SDK Initialization'
+title: "SDK Initialization"
 ---
 
 #### Add the SDK Dependency
@@ -11,6 +11,7 @@ Add the following dependency to your app-level `build.gradle` file
 ```kotlin Kotlin
 implementation("com.twinalyze:analytics:1+")
 ```
+
 
 ```java Java
 implementation("com.twinalyze:analytics:1+");
@@ -29,6 +30,7 @@ plugins {
 }
 ```
 
+
 ```java Java
 plugins {
     id 'com.android.application' version '8.2.0' apply false
@@ -38,7 +40,7 @@ plugins {
 
 </CodeGroup>
 
-#### Initializing Analytics SDK in Android
+#### Initializing Analytics SDK in Android ( change mintlify )
 
 Initialize the **SDK** in your `Application` class to start tracking sessions, events, and insights.
 
@@ -58,6 +60,7 @@ class MyApp : Application() {
 }
 ```
 
+
 ```java Java
 class MyApp extends Application {
     override fun onCreate() {
@@ -74,68 +77,70 @@ class MyApp extends Application {
 
 </CodeGroup>
 
-<Accordion title="Parameter Reference" defaultOpen="true">
-
-<table class="sdk-table">
+<Accordion defaultOpen="true" title="Parameter Reference">
+  <table class="sdk-table">
   <thead>
     <tr>
       <th>Parameter</th>
       <th>Description</th>
     </tr>
   </thead>
+
   <tbody>
     <tr>
       <td>`application`</td>
       <td>Android application context</td>
     </tr>
+
     <tr>
       <td>`apiKey`</td>
       <td>Your Project API key</td>
     </tr>
+
     <tr>
       <td>`orgId`</td>
       <td>Your organization ID (e.g. `twinalyze_demo_7356297484`)</td>
     </tr>
+
     <tr>
       <td>`debug`</td>
       <td>If debug true than take a screenshot</td>
     </tr>
   </tbody>
 </table>
- 
 </Accordion>
 
-<Card class="pass-card" title="Demo Account" icon="key">
-  Email: info@twinalyze.com <br/>
+<Card icon="key" title="Demo Account">
+  Email: [info@twinalyze.com](mailto:info@twinalyze.com) \
   Password: 123
 </Card>
 
 <div class="download-app">
- <a href="https://github.com/twinalyze/twinalyze-android-food-delivery-app-demo.git" target="_blank">
+  <a href="https://github.com/twinalyze/twinalyze-android-food-delivery-app-demo.git" target="_blank">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
     <span class="app-name">Github Demo</span>
   </a>
 
   <span class="app-devider">|</span>
 
   <a href="https://drive.google.com/drive/folders/1czFBkIDrxdkPcQRpOcrwFnjzPujvh7K7" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg"  />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg" />
+
     <span class="app-name">Download APK</span>
   </a>
 
   <span class="app-devider">|</span>
 
   <a href="https://app.twinalyze.com/" target="_blank">
-    <img src="/s.svg"/>
+    <img src="/s.svg" />
+
     <span class="app-name">Demo</span>
   </a>
 </div>
 
-
-
-
->✅ Best Practice <br/>
-Always call `initialize()` inside your `Application` class — not inside an Activity — to ensure complete session tracking.
+> ✅ Best Practice \
+> Always call `initialize()` inside your `Application` class — not inside an Activity — to ensure complete session tracking.
 
 <CodeGroup>
 
@@ -152,6 +157,7 @@ class MyApp : Application() {
     }
 }
 ```
+
 
 ```java Java
 class MyApp extends Application {
