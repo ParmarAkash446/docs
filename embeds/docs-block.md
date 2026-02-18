@@ -1,5 +1,5 @@
 ### Getting Started (Short)
-- Install: `npm i your-sdk`
+- Install: `npm i twinalyze-sdk`
 - Init: `init("PROJECT_KEY")`
 
-> Note: This block is used inside the app docs page.
+> Note: This block is used inside React Docs page.
