@@ -215,3 +215,81 @@ tr:target {
 .card{
   width: max-content;
 }
+
+/* ===== Mintlify-like Accordion (Parameter Reference) ===== */
+.mintlify-embed details {
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.mintlify-embed details > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 12px 16px;
+  font-weight: 600;
+  background: #f8fafc;          /* light header like mintlify */
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* remove default marker */
+.mintlify-embed details > summary::-webkit-details-marker { display: none; }
+
+/* chevron */
+.mintlify-embed details > summary::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #64748b;
+  border-bottom: 2px solid #64748b;
+  transform: rotate(-45deg);
+  transition: transform 0.15s ease;
+}
+.mintlify-embed details[open] > summary::before {
+  transform: rotate(45deg);
+}
+
+.mintlify-embed details > *:not(summary) {
+  padding: 14px 16px 16px;
+}
+
+/* ===== Mintlify-like Table ===== */
+.mintlify-embed table {
+  display: table !important;
+  width: 100% !important;
+  table-layout: fixed;          /* ✅ remove right-side blank area */
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.mintlify-embed th,
+.mintlify-embed td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #eef2f7;
+  vertical-align: top;
+}
+
+.mintlify-embed thead th {
+  font-weight: 600;
+  color: #0f172a;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.mintlify-embed th:first-child,
+.mintlify-embed td:first-child {
+  width: 160px;                 /* ✅ Parameter column fixed like mintlify */
+}
+
+/* pill style for parameter names */
+.mintlify-embed td code,
+.mintlify-embed td :not(pre) > code {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
