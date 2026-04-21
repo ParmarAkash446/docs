@@ -8,34 +8,25 @@
     "dark": "#15803D"
   },
   "favicon": "favicon.png",
-  "navigation": {
+  "navigation2": {
     "dropdowns": [
-          {
-            "dropdown": "Select Options",
-            "icon": "tv",
-            "groups": [
-              {
-            "group": "Getting Started",
-            "pages": [
-              "android/overview",
-              "android/installation",
-              "android/initialization"
-            ]
-          }
-            ]
-          }
-    ],
-    "tabs": [
       {
-        "tab": "Documentation",
+        "dropdown": "Documentation",
+        "icon": "book-open",
         "groups": [
-          {
+           {
             "group": "INTRODUCTION",
             "pages": [
               "what-is-analytics"
             ]
-          },
-          {
+          }
+        ]
+      },
+      {
+        "dropdown": "SDK Docs",
+        "icon": "code",
+        "groups": [
+           {
             "group": "ANALYTICS",
             "icon": "chart-line",
             "pages": [
@@ -47,30 +38,24 @@
             ]
           },
           {
-            "group": "AD ANALYTICS",
-            "icon": "tv",
+            "group": "JavaScript",
             "pages": [
-              "ad-analytics/ad-analytics-sdk",
-              "ad-analytics/ad-sdk-initialization"
+              "javascript/index",
+              "javascript/installation"
             ]
           },
           {
-            "group": "Embeds",
+            "group": "Node",
             "pages": [
-              "embeds/docs-block.md"
-            ]
-          },
-          {
-            "group": "Changelog",
-            "icon": "tv",
-            "pages": [
-              "Changelog/changelog"
+              "node/index",
+              "node/installation"
             ]
           }
         ]
       }
     ]
-  },
+  }
+},
   "navbar": {
     "links": [
       {
