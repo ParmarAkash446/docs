@@ -73,51 +73,28 @@
         ]
       },
       {
+        "dropdown": "CHANGELOG",
+        "icon": "code",
+        "groups": [
+           {
+            "group": "CHANGELOG",
+            "icon": "chart-line",
+            "pages": [
+              "Changelog/changelog.mdx"
+            ]
+          }
+        ]
+      },
+      {
         "dropdown": "AD-ANALYTICS",
         "icon": "code",
         "groups": [
            {
-            "group": "AD-START",
+            "group": "AD-ANALYTICS",
             "icon": "chart-line",
             "pages": [
-              "analytics/get-started",
-              "analytics/sdk-initialization",
-              "analytics/auto-manual-event-tracking",
-              "analytics/custom-event-tracking",
-              "analytics/add-event-tracking"
-            ]
-          },
-           {
-            "group": "AD-ANALYTICS-APP",
-            "icon": "chart-line",
-            "pages": [
-              "analytics/get-started",
-              "analytics/sdk-initialization",
-              "analytics/auto-manual-event-tracking",
-              "analytics/custom-event-tracking",
-              "analytics/add-event-tracking"
-            ]
-          },
-           {
-            "group": "AD-ANALYTICS-NODE",
-            "icon": "chart-line",
-            "pages": [
-              "analytics/get-started",
-              "analytics/sdk-initialization",
-              "analytics/auto-manual-event-tracking",
-              "analytics/custom-event-tracking",
-              "analytics/add-event-tracking"
-            ]
-          },
-           {
-            "group": "AD-ANALYTICS-JAVA",
-            "icon": "chart-line",
-            "pages": [
-              "analytics/get-started",
-              "analytics/sdk-initialization",
-              "analytics/auto-manual-event-tracking",
-              "analytics/custom-event-tracking",
-              "analytics/add-event-tracking"
+              "ad-analytics/ad-analytics-sdk.mdx",
+              "ad-analytics/ad-sdk-Initialization.mdx"
             ]
           }
         ]
