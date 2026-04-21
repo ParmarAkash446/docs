@@ -23,11 +23,94 @@
         ]
       },
       {
-        "dropdown": "SDK Docs",
+        "dropdown": "ANALYTICS",
         "icon": "code",
         "groups": [
            {
             "group": "ANALYTICS",
+            "icon": "chart-line",
+            "pages": [
+              "analytics/get-started",
+              "analytics/sdk-initialization",
+              "analytics/auto-manual-event-tracking",
+              "analytics/custom-event-tracking",
+              "analytics/add-event-tracking"
+            ]
+          },
+           {
+            "group": "ANALYTICS-APP",
+            "icon": "chart-line",
+            "pages": [
+              "analytics/get-started",
+              "analytics/sdk-initialization",
+              "analytics/auto-manual-event-tracking",
+              "analytics/custom-event-tracking",
+              "analytics/add-event-tracking"
+            ]
+          },
+           {
+            "group": "ANALYTICS-NODE",
+            "icon": "chart-line",
+            "pages": [
+              "analytics/get-started",
+              "analytics/sdk-initialization",
+              "analytics/auto-manual-event-tracking",
+              "analytics/custom-event-tracking",
+              "analytics/add-event-tracking"
+            ]
+          },
+           {
+            "group": "ANALYTICS-JAVA",
+            "icon": "chart-line",
+            "pages": [
+              "analytics/get-started",
+              "analytics/sdk-initialization",
+              "analytics/auto-manual-event-tracking",
+              "analytics/custom-event-tracking",
+              "analytics/add-event-tracking"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "AD-ANALYTICS",
+        "icon": "code",
+        "groups": [
+           {
+            "group": "AD-START",
+            "icon": "chart-line",
+            "pages": [
+              "analytics/get-started",
+              "analytics/sdk-initialization",
+              "analytics/auto-manual-event-tracking",
+              "analytics/custom-event-tracking",
+              "analytics/add-event-tracking"
+            ]
+          },
+           {
+            "group": "AD-ANALYTICS-APP",
+            "icon": "chart-line",
+            "pages": [
+              "analytics/get-started",
+              "analytics/sdk-initialization",
+              "analytics/auto-manual-event-tracking",
+              "analytics/custom-event-tracking",
+              "analytics/add-event-tracking"
+            ]
+          },
+           {
+            "group": "AD-ANALYTICS-NODE",
+            "icon": "chart-line",
+            "pages": [
+              "analytics/get-started",
+              "analytics/sdk-initialization",
+              "analytics/auto-manual-event-tracking",
+              "analytics/custom-event-tracking",
+              "analytics/add-event-tracking"
+            ]
+          },
+           {
+            "group": "AD-ANALYTICS-JAVA",
             "icon": "chart-line",
             "pages": [
               "analytics/get-started",
