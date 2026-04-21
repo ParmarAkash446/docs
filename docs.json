@@ -80,7 +80,7 @@
             "group": "CHANGELOG",
             "icon": "chart-line",
             "pages": [
-              "Changelog/changelog.mdx"
+              "Changelog/changelog"
             ]
           }
         ]
@@ -93,8 +93,8 @@
             "group": "AD-ANALYTICS",
             "icon": "chart-line",
             "pages": [
-              "ad-analytics/ad-analytics-sdk.mdx",
-              "ad-analytics/ad-sdk-Initialization.mdx"
+              "ad-analytics/ad-analytics-sdk",
+              "ad-analytics/ad-sdk-Initialization"
             ]
           }
         ]
