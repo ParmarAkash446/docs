@@ -9,6 +9,22 @@
   },
   "favicon": "favicon.png",
   "navigation": {
+    "dropdowns": [
+          {
+            "dropdown": "Changelog",
+            "icon": "tv",
+            "groups": [
+              {
+            "group": "Getting Started",
+            "pages": [
+              "android/overview",
+              "android/installation",
+              "android/initialization"
+            ]
+          }
+            ]
+          }
+    ],
     "tabs": [
       {
         "tab": "Documentation",
