@@ -48,7 +48,7 @@
             "group": "Changelog",
             "icon": "tv",
             "pages": [
-              "Changelog/changelog.mdx"
+              "Changelog/changelog"
             ]
           }
         ]
