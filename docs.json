@@ -43,6 +43,13 @@
             "pages": [
               "embeds/docs-block.md"
             ]
+          },
+          {
+            "group": "Changelog",
+            "icon": "tv",
+            "pages": [
+              "Changelog/changelog.mdx"
+            ]
           }
         ]
       }
