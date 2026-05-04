@@ -8,99 +8,6 @@
     "dark": "#15803D"
   },
   "favicon": "favicon.png",
-  "navigation": {
-    "dropdowns": [
-      {
-        "dropdown": "Documentation",
-        "icon": "book-open",
-        "groups": [
-           {
-            "group": "INTRODUCTION",
-            "pages": [
-              "what-is-analytics"
-            ]
-          }
-        ]
-      },
-      {
-        "dropdown": "ANALYTICS",
-        "icon": "code",
-        "groups": [
-           {
-            "group": "ANALYTICS",
-            "icon": "chart-line",
-            "pages": [
-              "analytics/get-started",
-              "analytics/sdk-initialization",
-              "analytics/auto-manual-event-tracking",
-              "analytics/custom-event-tracking",
-              "analytics/add-event-tracking"
-            ]
-          },
-           {
-            "group": "ANALYTICS-APP",
-            "icon": "chart-line",
-            "pages": [
-              "analytics/get-started",
-              "analytics/sdk-initialization",
-              "analytics/auto-manual-event-tracking",
-              "analytics/custom-event-tracking",
-              "analytics/add-event-tracking"
-            ]
-          },
-           {
-            "group": "ANALYTICS-NODE",
-            "icon": "chart-line",
-            "pages": [
-              "analytics/get-started",
-              "analytics/sdk-initialization",
-              "analytics/auto-manual-event-tracking",
-              "analytics/custom-event-tracking",
-              "analytics/add-event-tracking"
-            ]
-          },
-           {
-            "group": "ANALYTICS-JAVA",
-            "icon": "chart-line",
-            "pages": [
-              "analytics/get-started",
-              "analytics/sdk-initialization",
-              "analytics/auto-manual-event-tracking",
-              "analytics/custom-event-tracking",
-              "analytics/add-event-tracking"
-            ]
-          }
-        ]
-      },
-      {
-        "dropdown": "CHANGELOG",
-        "icon": "code",
-        "groups": [
-           {
-            "group": "CHANGELOG",
-            "icon": "chart-line",
-            "pages": [
-              "Changelog/changelog"
-            ]
-          }
-        ]
-      },
-      {
-        "dropdown": "AD-ANALYTICS",
-        "icon": "code",
-        "groups": [
-           {
-            "group": "AD-ANALYTICS",
-            "icon": "chart-line",
-            "pages": [
-              "ad-analytics/ad-analytics-sdk",
-              "ad-analytics/ad-sdk-Initialization"
-            ]
-          }
-        ]
-      }
-    ]
-  },
   "navbar": {
     "links": [
       {
@@ -118,6 +25,170 @@
       "href": "https://Google.com"
     }
   },
+   "navigation": {
+    "tabs": [
+      {
+        "tab": "Overview",
+        "icon": "house",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "overview/introduction",
+              "overview/what-is-twinalyze"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "SDKs",
+        "icon": "code",
+        "menu": [
+          {
+            "item": "SDK",
+            "icon": "code",
+            "pages": [
+              "sdks/overview",
+              "sdks/android/overview",
+              "sdks/web/overview",
+              "sdks/flutter/overview"
+            ]
+          },
+          {
+            "item": "3rd Party Integration",
+            "icon": "plug",
+            "pages": [
+              "integrations/google-analytics-4",
+              "integrations/google-tag-manager",
+              "integrations/firebase",
+              "integrations/onesignal"
+            ]
+          }
+        ],
+        "dropdowns": [
+          {
+            "dropdown": "SDK",
+            "icon": "code",
+            "groups": [
+              {
+                "group": "SDK Overview",
+                "pages": [
+                  "sdks/overview"
+                ]
+              },
+              {
+                "group": "Android SDK",
+                "expanded": true,
+                "pages": [
+                  "sdks/android/overview",
+                  "sdks/android/install",
+                  "sdks/android/initialize",
+                  "sdks/android/send-event"
+                ]
+              },
+              {
+                "group": "Web SDK",
+                "expanded": false,
+                "pages": [
+                  "sdks/web/overview",
+                  "sdks/web/install",
+                  "sdks/web/send-event"
+                ]
+              },
+              {
+                "group": "Flutter SDK",
+                "expanded": false,
+                "pages": [
+                  "sdks/flutter/overview",
+                  "sdks/flutter/install"
+                ]
+              }
+            ]
+          },
+          {
+            "dropdown": "Integration",
+            "icon": "plug",
+            "groups": [
+              {
+                "group": "3rd Party Integration",
+                "pages": [
+                  "integrations/google-analytics-4",
+                  "integrations/google-tag-manager",
+                  "integrations/firebase",
+                  "integrations/onesignal"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Analytics",
+        "icon": "chart-line",
+        "groups": [
+          {
+            "group": "Dashboard",
+            "pages": [
+              "analytics/dashboard-overview",
+              "analytics/realtime-users"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Engagement",
+        "icon": "bell",
+        "groups": [
+          {
+            "group": "Notifications",
+            "pages": [
+              "engagement/notification-overview",
+              "engagement/create-notification"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Data & Events",
+        "icon": "database",
+        "groups": [
+          {
+            "group": "Data Model",
+            "pages": [
+              "data-events/data-model",
+              "data-events/events-overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Developers",
+        "icon": "terminal",
+        "groups": [
+          {
+            "group": "Quickstart",
+            "pages": [
+              "developers/developer-overview",
+              "developers/api-keys"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Admin",
+        "icon": "settings",
+        "groups": [
+          {
+            "group": "Project Settings",
+            "pages": [
+              "admin/project-overview",
+              "admin/configuration"
+            ]
+          }
+        ]
+      }
+    ]
+   },
   "footer": {
     "socials": {
       "x": "https://x.com",
