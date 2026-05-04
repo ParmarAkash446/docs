@@ -112,9 +112,9 @@
               {
                 "group": "3rd Party Integration",
                 "pages": [
-                  "integrations/google-analytics-4",
-                  "integrations/google-tag-manager",
-                  "integrations/firebase",
+                  "Changelog/changelog",
+                  "what-is-analytics",
+                  "analytics/custom-event-tracking",
                   "integrations/onesignal"
                 ]
               }
