@@ -48,10 +48,10 @@
             "item": "SDK",
             "icon": "code",
             "pages": [
-              "sdks/overview",
-              "sdks/android/overview",
-              "sdks/web/overview",
-              "sdks/flutter/overview"
+              "analytics/get-started",
+              "analytics/add-event-tracking",
+              "analytics/custom-event-tracking",
+              "analytics/sdk-initialization"
             ]
           },
           {
@@ -73,16 +73,16 @@
               {
                 "group": "SDK Overview",
                 "pages": [
-                  "sdks/overview"
+                  "analytics/add-event-tracking"
                 ]
               },
               {
                 "group": "Android SDK",
                 "expanded": true,
                 "pages": [
-                  "sdks/android/overview",
-                  "sdks/android/install",
-                  "sdks/android/initialize",
+                  "analytics/get-started",
+                  "ad-analytics/ad-analytics-sdk",
+                  "ad-analytics/ad-sdk-Initialization",
                   "sdks/android/send-event"
                 ]
               },
