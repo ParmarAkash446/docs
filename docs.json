@@ -25,97 +25,114 @@
       "href": "https://Google.com"
     }
   },
-   "navigation": {
+    "navigation": {
     "tabs": [
       {
         "tab": "Overview",
         "icon": "house",
         "groups": [
           {
-            "group": "Introduction",
+            "group": "Getting Started",
             "pages": [
               "overview/introduction",
-              "overview/what-is-twinalyze"
+              "overview/quickstart"
             ]
           }
         ]
       },
       {
         "tab": "SDKs",
-        "icon": "code",
+        "icon": "code-xml",
         "menu": [
           {
             "item": "SDK",
-            "icon": "code",
-            "pages": [
-              "analytics/get-started",
-              "analytics/add-event-tracking",
-              "analytics/custom-event-tracking",
-              "analytics/sdk-initialization"
-            ]
-          },
-          {
-            "item": "3rd Party Integration",
-            "icon": "plug",
-            "pages": [
-              "integrations/google-analytics-4",
-              "integrations/google-tag-manager",
-              "integrations/firebase",
-              "integrations/onesignal"
-            ]
-          }
-        ],
-        "dropdowns": [
-          {
-            "dropdown": "SDK",
-            "icon": "code",
+            "icon": "code-xml",
+            "description": "Mobile and web SDK documentation",
             "groups": [
               {
-                "group": "SDK Overview",
+                "group": "Common",
                 "pages": [
-                  "analytics/add-event-tracking"
+                  "sdk/common/one",
+                  "sdk/common/two"
                 ]
               },
               {
-                "group": "Android SDK",
-                "expanded": true,
+                "group": "Android",
                 "pages": [
-                  "analytics/get-started",
-                  "ad-analytics/ad-analytics-sdk",
-                  "ad-analytics/ad-sdk-Initialization",
-                  "sdks/android/send-event"
+                  {
+                    "group": "Kotlin",
+                    "expanded": false,
+                    "pages": [
+                      "sdk/android/kotlin/installation",
+                      "sdk/android/kotlin/events"
+                    ]
+                  },
+                  {
+                    "group": "Java",
+                    "expanded": false,
+                    "pages": [
+                      "sdk/android/java/installation",
+                      "sdk/android/java/events"
+                    ]
+                  }
                 ]
               },
               {
-                "group": "Web SDK",
-                "expanded": false,
+                "group": "Web",
                 "pages": [
-                  "sdks/web/overview",
-                  "sdks/web/install",
-                  "sdks/web/send-event"
-                ]
-              },
-              {
-                "group": "Flutter SDK",
-                "expanded": false,
-                "pages": [
-                  "sdks/flutter/overview",
-                  "sdks/flutter/install"
+                  {
+                    "group": "JavaScript",
+                    "expanded": false,
+                    "pages": [
+                      "sdk/web/javascript/installation",
+                      "sdk/web/javascript/events"
+                    ]
+                  },
+                  {
+                    "group": "React",
+                    "expanded": false,
+                    "pages": [
+                      "sdk/web/react/installation",
+                      "sdk/web/react/events"
+                    ]
+                  },
+                  {
+                    "group": "NPM",
+                    "expanded": false,
+                    "pages": [
+                      "sdk/web/npm/installation",
+                      "sdk/web/npm/events"
+                    ]
+                  }
                 ]
               }
             ]
           },
           {
-            "dropdown": "Integration",
+            "item": "Integration",
             "icon": "plug",
+            "description": "Third-party integration guides",
             "groups": [
               {
-                "group": "3rd Party Integration",
+                "group": "Analytics Integrations",
                 "pages": [
-                  "Changelog/changelog",
-                  "what-is-analytics",
-                  "analytics/custom-event-tracking",
-                  "integrations/onesignal"
+                  "integrations/google-analytics-4",
+                  "integrations/google-tag-manager",
+                  "integrations/firebase"
+                ]
+              },
+              {
+                "group": "Notification Integrations",
+                "pages": [
+                  "integrations/onesignal",
+                  "integrations/firebase-cloud-messaging"
+                ]
+              },
+              {
+                "group": "Web Integrations",
+                "pages": [
+                  "integrations/react",
+                  "integrations/npm"
                 ]
               }
             ]
@@ -127,68 +144,17 @@
         "icon": "chart-line",
         "groups": [
           {
-            "group": "Dashboard",
+            "group": "Analytics",
             "pages": [
-              "analytics/dashboard-overview",
-              "analytics/realtime-users"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Engagement",
-        "icon": "bell",
-        "groups": [
-          {
-            "group": "Notifications",
-            "pages": [
-              "engagement/notification-overview",
-              "engagement/create-notification"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Data & Events",
-        "icon": "database",
-        "groups": [
-          {
-            "group": "Data Model",
-            "pages": [
-              "data-events/data-model",
-              "data-events/events-overview"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Developers",
-        "icon": "terminal",
-        "groups": [
-          {
-            "group": "Quickstart",
-            "pages": [
-              "developers/developer-overview",
-              "developers/api-keys"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Admin",
-        "icon": "settings",
-        "groups": [
-          {
-            "group": "Project Settings",
-            "pages": [
-              "admin/project-overview",
-              "admin/configuration"
+              "analytics/overview",
+              "analytics/events",
+              "analytics/reports"
             ]
           }
         ]
       }
     ]
-   },
+  },
   "footer": {
     "socials": {
       "x": "https://x.com",
