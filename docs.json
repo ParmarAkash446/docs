@@ -52,8 +52,8 @@
               {
                 "group": "Common",
                 "pages": [
-                  "sdk/common/one",
-                  "sdk/common/two"
+                  "Changelog/changelog",
+                  "ad-analytics/ad-analytics-sdk"
                 ]
               },
               {
